@@ -41,12 +41,12 @@ where `R` is the radius of the earth and $haversin(θ) = sin^2(\frac{\theta}{2})
 correct, try to test the coordinates of Tallahassee and Gainesville and check if you get the approximate
 mileage. 
 
-If the input city does not exist in the list of cities, you should raise any type of exception.
-
 Your search city function should be implemented in a functon called `cities_distances` inside `answers_lab.py` with the following structure:
 
 ```python
-    def cities_distances(city):
+    # The function will receive some latitude and longitude and provide a list of cities 
+    # and distances to those cities in order of increasing distance.
+    def cities_distances((lat,lon)):
         # your code here
         return cities, distances
 ```

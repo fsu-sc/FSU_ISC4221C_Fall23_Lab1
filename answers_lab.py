@@ -7,5 +7,5 @@ def selection_sort(lst):
 def bubble_sort(lst):
     return None
 
-def cities_distances(city):
+def cities_distances(clat, clon):
     return None
