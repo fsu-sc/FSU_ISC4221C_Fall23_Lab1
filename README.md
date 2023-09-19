@@ -46,7 +46,7 @@ Your search city function should be implemented in a functon called `cities_dist
 ```python
     # The function will receive some latitude and longitude and provide a list of cities 
     # and distances to those cities in order of increasing distance.
-    def cities_distances((lat,lon)):
+    def cities_distances(lat,lon):
         # your code here
         return cities, distances
 ```
