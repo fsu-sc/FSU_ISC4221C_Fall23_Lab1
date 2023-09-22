@@ -7,10 +7,10 @@ The objectives of this lab are to implement two brute force approaches to sortin
  
 ###  1. (20 points) Selection sort ###
   Implement the Selection Sort algorithm for sorting an array of `n` real numbers in ascending order. You should write a function whose input is the array to be sorted and the output is the sorted array. 
-  Your selection sort algorithm should be implemented in a functon called `my_selection_sort` with the following structure:
+  Your selection sort algorithm should be implemented in a functon called `selection_sort` with the following structure:
 
 ```python
-    def my_selection_sort(array):
+    def selection_sort(array):
         # your code here
         return sorted_array
 ```
@@ -21,7 +21,7 @@ The objectives of this lab are to implement two brute force approaches to sortin
 Implement the Bubble Sort algorithm for sorting an array of `n` real numbers in ascending
 order as in Problem 1.
 
-Your bubble sort algorithm should be implemented in a functon called `my_bubble_sort` inside `answers_lab.py`.
+Your bubble sort algorithm should be implemented in a functon called `bubble_sort` inside `answers_lab.py`.
 
 ### 3. (40 points) Sorting exercise.
 
@@ -59,7 +59,7 @@ If you want to make the tests work smoothly, the cities should be an array of st
 ```python
 import answers_lab as ans
 array = [4, 2, 3, 1, 5]
-sorted_array = ans.my_selection_sort(array)
+sorted_array = ans.selection_sort(array)
 print(sorted_array)
 ```
 
